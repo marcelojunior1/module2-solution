@@ -60,6 +60,10 @@ span
 {
   width: 100%;
   float: left;
+
+  display: flex;
+    	align-items: center;
+    	justify-content: center;
 }
 
 /********** Large devices only **********/
@@ -96,7 +100,6 @@ span
   	.col-md-10, .col-md-11, .col-md-12
   	{
   		float: left;
-  
   	}
 
   	.col-md-1  { width: 8.33%;	}
